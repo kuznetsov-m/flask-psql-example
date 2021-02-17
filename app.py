@@ -19,6 +19,7 @@ db = SQLAlchemy(app)
 from models import *
 
 
+
 # login required decorator
 def login_required(f):
     @wraps(f)
